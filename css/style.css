@@ -63,6 +63,11 @@ h1, h2, h3, h4, a, p, li {
     padding: .8em 1em;
 }
 
+header { /*You need to finish this later*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .main-nav {
    display: flex;
    flex-direction: column;
@@ -73,12 +78,6 @@ h1, h2, h3, h4, a, p, li {
     margin: .25rem;
     padding: .75rem;
     background: #E7E5DF;
-}
-
-header { /*You need to finish this later*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .profile-img {
@@ -150,28 +149,18 @@ footer {
         display: flex;
     }
 
-    .main-nav ul;{
-        display: flex;
+    .main-nav {
+        flex-direction: row;
+        justify-content: center;
      }
-     
+
      .main-nav li {
-         margin: .25rem;
-         padding: .75rem;
-         background: #E7E5DF;
-     }
-     
+        margin: 1.25rem;
+        padding: 1rem;
+
+    }
 }
 
-@media (min-width: 900px){
-    .hide-desktop {
-        display: none;
-    }
-
-    .show-desktop {
-        display: flex;
-    }
-
-}
 
 
 
