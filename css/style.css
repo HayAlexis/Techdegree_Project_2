@@ -23,6 +23,7 @@ body {
 
 h2 {
     padding: 4rem;
+    padding-top: 0;
 }
 
 h3 {
@@ -47,7 +48,7 @@ p {
 }
 
 h1, h2, h3, h4, a, p, li {
-    color: #393E41;
+    color: #420217;
 }
 
 .header-container, .contact-container, .footer-container{
@@ -87,6 +88,7 @@ header { /*You need to finish this later*/
 .portfolio-container {
     width: 100%;
     padding: 4rem 0 3rem;
+    padding-bottom: 0;
 }
 
 .portfolio-container li{
@@ -226,8 +228,16 @@ footer {
         align-items: center;
     }
 
+    .footer-container {
+        width: 100%;
+    }
+
     .footer-container nav {
         align-self: center;
+    }
+
+    .footer-container ul {
+        display: flex;
     }
 
     .footer-size {
