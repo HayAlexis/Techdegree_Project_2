@@ -185,6 +185,13 @@ footer {
         width: 45%;
     }
 
+    .center-contact {
+        width: 70%;
+    }
+
+    .center-contact li {
+        align-items: center;
+    }
 
 }
 
