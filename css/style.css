@@ -101,9 +101,19 @@ header { /*You need to finish this later*/
     width: 90%;
 }
 
+.skills-container p {
+    padding: 2.5rem;
+}
+
 .skills-container img{
-    width: 90%;
-    background-color: transparent;
+    width: 50%;
+}
+
+.skills-container h3 {
+    border: solid 2px #D3D0CB;
+    width: auto;
+    background: #D3D0CB;
+    font-weight: 600;
 }
 
 .contact-container {
