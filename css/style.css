@@ -145,7 +145,7 @@ footer {
         display: none;
     }
 
-    .show-desktop, .hero, .portfolio-container {
+    .show-desktop, .hero, .side-projects {
         display: flex;
     }
 
@@ -171,6 +171,10 @@ footer {
     .profile-img {
         width: 300px;
         margin-bottom: 50px;
+    }
+
+    .side-projects {
+        justify-content: center;
     }
 
     .portfolio-container ul {
