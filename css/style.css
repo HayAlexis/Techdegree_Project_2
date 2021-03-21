@@ -101,6 +101,10 @@ header { /*You need to finish this later*/
     width: 90%;
 }
 
+.contact-container {
+    padding-bottom: 10px;
+}
+
 .contact {
     font-size: 1.42rem;
     line-height: 3.5rem;
@@ -109,6 +113,10 @@ header { /*You need to finish this later*/
 .phone, .email {
     display: flex;
     justify-content: space-around;
+}
+
+.footer-container {
+    border-top: solid grey 1px;
 }
 
 footer {
@@ -187,10 +195,23 @@ footer {
 
     .center-contact {
         width: 70%;
+        margin: 0 auto;
     }
 
     .center-contact li {
         align-items: center;
+    }
+
+    .footer-size {
+        font-size: 15px;
+    }
+
+    .footer-size li{
+        padding: 10px;
+    }
+
+    .footer-size {
+        align-self: center;
     }
 
 }
