@@ -145,7 +145,7 @@ footer {
         display: none;
     }
 
-    .show-desktop {
+    .show-desktop, .hero, .portfolio-container {
         display: flex;
     }
 
@@ -160,17 +160,28 @@ footer {
     }
 
     .hero {
-        display: flex;
+        flex-direction:row-reverse;
     }
 
-    .portfolio-container img {
-        width: 600px;
-        order: 1;
+    .subhead {
+        margin: 25px;
+        text-align: left;
     }
 
-    .subhead [
-        order: -1;
-    ]
+    .profile-img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-container ul {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-container  li{
+        width: 45%;
+    }
+
+
 }
 
 
