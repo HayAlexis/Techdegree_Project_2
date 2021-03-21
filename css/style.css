@@ -157,9 +157,22 @@ footer {
      .main-nav li {
         margin: 1.25rem;
         padding: 1rem;
-
     }
+
+    .hero {
+        display: flex;
+    }
+
+    .portfolio-container img {
+        width: 600px;
+        order: 1;
+    }
+
+    .subhead [
+        order: -1;
+    ]
 }
+
 
 
 
