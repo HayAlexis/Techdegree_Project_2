@@ -110,10 +110,8 @@ header { /*You need to finish this later*/
 }
 
 .skills-container h3 {
-    border: solid 2px #D3D0CB;
     width: auto;
-    background: #D3D0CB;
-    font-weight: 600;
+
 }
 
 .contact-container {
@@ -208,6 +206,15 @@ footer {
 
     .portfolio-container  li{
         width: 45%;
+    }
+
+    .skills-container ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills-container li {
+        width: 33%;
     }
 
     .center-contact {
