@@ -1,1 +1,5 @@
-# Techdegree_Project_2
+FEWD Project 2 --- Exceeds Expectations
+
+Designing web pages that look and function well on multiple screen sizes is an essential skill for a web developer. Using HTML, CSS, and responsive design, I created a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.
+
+Click the link to view:https://hayalexis.github.io/Techdegree_Project_2/
